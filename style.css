@@ -134,9 +134,7 @@ img {
   h1 {
     margin: 10px;
   }
-}
 
-@media screen and (max-width: 420px) {
   h3 {
     margin: 5px 0 0 0;
   }
