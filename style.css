@@ -8,7 +8,7 @@
 @media screen and (max-width: 420px) {
   .row {
     width: 100%;
-    margin-top: 10px;
+    margin: 10px 0;
   }
 }
 
@@ -17,6 +17,14 @@
 #lezioni .row>.right {
   width: 50%;
   float: left;
+}
+
+@media screen and (max-width: 420px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin-top: 10px;
+    width: 100%;
+  }
 }
 
 #lezioni .row img {
@@ -28,6 +36,11 @@
 
 #lezioni {
   text-align: center;
+}
+@media screen and (max-width: 420px) {
+  #lezioni {
+    background-color: #f2f2cd;
+  }
 }
 
 /* BLOCCO STEPS */
@@ -55,6 +68,11 @@
 #why {
   text-align: center;
 }
+@media screen and (max-width: 420px) {
+  #why {
+    background-color: #f2f2cd;
+  }
+}
 
 #why .row>.first,
 #why .row>.second,
@@ -80,6 +98,7 @@
 
 @media screen and (max-width: 420px) {
   #why .row img {
+    height: 40px;
     padding: 10px
   }
 }
@@ -95,12 +114,6 @@
   background-color: #f9f9f9;
 }
 
-@media screen and (max-width: 420px) {
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    width: 100%;
-  }
-}
 
 img {
   height: 200px;
@@ -114,4 +127,16 @@ img {
 
 .clear {
   clear: both;
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h3 {
+    margin: 5px 0 0 0;
+  }
 }
