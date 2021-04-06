@@ -5,6 +5,13 @@
   margin-top: 100px;
 }
 
+@media screen and (max-width: 420px) {
+  .row {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
 #lezioni .row>.right {
@@ -56,10 +63,25 @@
   margin-top: 80px;
 }
 
+@media screen and (max-width: 420px) {
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 100%;
+  margin-top: 20px;
+  }
+}
+
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
+}
+
+@media screen and (max-width: 420px) {
+  #why .row img {
+    padding: 10px
+  }
 }
 
 /* COMMON */
@@ -82,6 +104,12 @@
 
 img {
   height: 200px;
+}
+
+@media screen and (max-width: 420px) {
+  img {
+    height: 60px;
+  }
 }
 
 .clear {
